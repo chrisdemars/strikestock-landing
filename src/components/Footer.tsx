@@ -9,10 +9,13 @@ const Footer = () => {
           {/* Copyright and Legal */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-brand-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">S</span>
+              <div className="w-24 h-16 flex items-center justify-center">
+                <img
+                  src="/ss-logo.png" // Replace with the actual path to your logo
+                  alt="StockStrike AI Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
-              <span className="text-xl font-bold">StockStrike AI</span>
             </div>
             <p className="text-gray-400 mb-4">
               Professional trading platform for modern investors.
