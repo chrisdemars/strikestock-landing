@@ -21,7 +21,7 @@ const Footer = () => {
               Professional trading platform for modern investors.
             </p>
             <div className="space-y-2 text-sm text-gray-400">
-              <p>© 2025 StockStrike AI. All rights reserved.</p>
+              <p>© 2025 StrikeStock AI. All rights reserved.</p>
               <div className="flex flex-wrap gap-4">
                 <a href="#" className="hover:text-brand-accent transition-colors">Privacy Policy</a>
                 <a href="#" className="hover:text-brand-accent transition-colors">Terms of Service</a>
