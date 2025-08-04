@@ -1,5 +1,6 @@
 
 import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -21,11 +22,12 @@ const Footer = () => {
               Professional trading platform for modern investors.
             </p>
             <div className="space-y-2 text-sm text-gray-400">
-              <p>© 2025 StrikeStock AI. All rights reserved.</p>
+              <p>© 2025 Strike Stock AI&trade;. All rights reserved.</p>
               <div className="flex flex-wrap gap-4">
                 <a href="#" className="hover:text-brand-accent transition-colors">Privacy Policy</a>
                 <a href="#" className="hover:text-brand-accent transition-colors">Terms of Service</a>
                 <a href="#" className="hover:text-brand-accent transition-colors">Legal</a>
+                <Link to="/int-prop" className="hover:text-brand-accent transition-colors">Intellectual Property</Link>
               </div>
             </div>
           </div>
